@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Mulero adverts</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar page">
+      <div class="nav-center">
+        <!-- links -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link">
+                home
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">
+                about
+              </a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link">
+                products
+              </a>
+            </li>
+                <li>
+                  <a href="services.html" class="nav-link">
+                    services
+                  </a>
+                </li>
+                </ul>
+        </div>
+        
+        <!-- cart icon -->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </div>
+    </nav>
+    <!-- hero -->
+    <section class="page-hero">
+      <div class="section-center">
+        <h3 class="page-hero-title"> Our Products</h3>
+      </div>
+    </section>
+    <!-- sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <!-- close -->
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>
+              home
+            </a>
+          </li>
+            <li>
+              <a href="about.html" class="sidebar-link">
+                <i class="fas fa-book fa-fw"></i>
+                about
+              </a>
+            </li>
+          <li>
+            <a href="products.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>
+              products
+            </a>
+          </li>
+          <li>
+            <a href="services.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>
+              services
+            </a>
+          </li>
+                  </ul>
+      </aside>
+    </div>
+    <!-- cart -->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        
+        <header>
+          <h3 class="text-slanted">your bag</h3>
+        </header>
+        <!-- cart items -->
+        <div class="cart-items">
+          
+        </div>
+        <!-- footer -->
+        <footer>
+          <h3 class="cart-total text-slanted">
+            total : $12.99
+            
+          </h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
+    </div>
+    <!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/luck1.jpg" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Greeting cards</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$5.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              We help our clients to design top-notch greeting cards
+              for their various use and purposes at affordable prices.
+              We are fast and very reliable. Try us out !!!
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/Cool1.jpg" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Invitation cards</h2>
+            <p class="single-product-company text-slanted">
+              by Mulero Adverts
+            </p>
+            <p class="single-product-price">$5.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              Do you know you can get your invitation card done by
+              us ?. We create various designs of invitation cards for
+              your events. They are readily available. 
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/Animation.webp" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Animation</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$10.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              I create Animation pictures and videos to serve your 
+              purpose. Our amimation are of high quality and dont take 
+              long in making, and it is also affordable
+              
+              
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+            <script type="module" src="./src/cart/toggleCart.js"></script>
+            <script type="module" src="./src/cart/setupCart.js"></script>
+            <script type="module" src="./src/cart/addToCartDOM.js"></script>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/Flyers.jpg" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">flyers</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$7.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              Your fliers can be done by us. I can help you create various
+              fliers with different designs. We design it and can deliver
+              in form of hardcopy or softcopy.            
+              
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/adverts.webp" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Business adverts</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$15.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              We help to create attractive and catchy business adverts
+              We create advertisement pictures and videos. The videos
+              are done to the satisfaction of our clients
+              
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/Photo collage1.webp" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">photo collage</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$20.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              Create your lovely and beautiful photo collage from us
+              today, for your family or yourself. We've been in the 
+              business for a very long time and trust me. We are the best.
+            
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/logo.jpg" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Logo design</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$10.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              A business without logo isnt professional and responsible
+              A business needs a logo for identification. Create your
+              business logos with us today. It is very affordable and 
+              we deliver fast
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/resume.webp" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">resume</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$15.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              Your resume can be done with me today. Many clients have 
+              given their testimony on the resume that i designed for them
+              They started refering their friends to me, because of how good
+              i do created their resume. 
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/18.jpg" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Planner</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$15.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              Try out our planner today. We create different ones for
+              different purposes and have different designs for them.They
+              well structure and smoothly created
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+<!-- product info -->
+    <section class="single-product">
+      <div class="section-center single-product-center">
+        <img src="./images/visual document.jpg" class="single-product-img img" alt="" />
+        <article class="single-product-info">
+          <div>
+            <h2 class="single-product-title">Visual document</h2>
+            <p class="single-product-company text-slanted">
+              by mulero adverts
+            </p>
+            <p class="single-product-price">$13.00</p>
+            <div class="single-product-colors"></div>
+            <p class="single-product-desc">
+              Make your visual documents with us. Our visual documents
+              communicate primarily through the interaction of image, text,
+              charts, sketches and diagrams.
+            </p>
+            <button class="addToCartBtn btn" data-id="id">
+              add to cart
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <script type="module" src="./src/pages/products.js"></script>
+  </body>
+</html>
